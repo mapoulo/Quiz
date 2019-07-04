@@ -1,3 +1,59 @@
 page-home {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+
+    .loginBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 150px;
+      
+    }
+
+    ion-input {
+        border-bottom: 1px solid rgb(199, 199, 199);
+    }
+
+
+    h1{
+        font-size: 40px;
+        margin: 10px;
+        margin-left: 60px;
+    }
+
+    .username{
+        display: flex;
+        margin: 10px;
+    }
+
+    .password{
+        display: flex;
+        margin: 10px;
+    }
+
+    .icons{
+       font-size: 20px;
+       margin: auto;
+       margin-left: 40px;
+    }
+
+    .input{
+        margin: 5px;
+        margin-left: 20px;
+    }
+
+    .LogInBtn{
+        margin: auto;
+        height: 50px;
+        width: 90px;
+        border-radius: 10px;
+        margin-top: 20px;
+
+    }
 
 }

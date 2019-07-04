@@ -1,0 +1,18 @@
+page-category {
+
+    .CategoryPage{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .item{
+        border-radius: 40px;
+    }
+}

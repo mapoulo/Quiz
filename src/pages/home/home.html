@@ -1,14 +1,26 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding  class="cont">
+  <div class="container">
+
+      <div class="loginBox">
+
+        <h1>Sign In</h1>
+  
+        <div class="username">
+          <ion-icon ios="ios-contact" md="md-contact" class="icons"></ion-icon>
+          <ion-input placeholder="username"></ion-input>
+         
+        </div>
+        <hr>
+  
+        <div class="password">
+          <ion-icon name="contact" class="icons"></ion-icon>
+          <ion-input placeholder="password" type="password" class="input"></ion-input>
+        </div>
+  
+        <button class="LogInBtn" (click)="categoryPage()">Login</button>
+  
+      </div>
+
+  </div>
 </ion-content>

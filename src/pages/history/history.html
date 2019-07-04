@@ -1,0 +1,68 @@
+<!--
+  Generated template for the HistoryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title  *ngIf="History">{{History.name}}</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding class="History">
+
+
+  <div class="container">
+
+    <div class="questions" *ngIf="History">
+
+        <div class="Q">
+            {{History.question1}}
+           <br/> <br/> 
+             <input type="radio" name="name1">{{History.q11}}<br>
+            <input type="radio" name="name1" value="South Sudan" [(ngModel)]="answer1" (change)="checkAnswer1()">{{History.q12}}<br>
+            <input type="radio" name="name1">{{History.q13}}<br>
+            <input type="radio" name="name1">{{History.q14}}
+    
+          </div> 
+
+
+          <div class="Q">
+              {{History.question2}}
+             <br/> <br/> 
+               <input type="radio" name="name2" >{{History.q21}}<br>
+              <input type="radio" name="name2" value="The Black Pimpernel" [(ngModel)]="answer2" (change)="checkAnswer2()">{{History.q22}}<br>
+              <input type="radio" name="name2" >{{History.q23}}<br>
+              <input type="radio" name="name2" >{{History.q24}}
+      
+            </div> 
+
+
+            <div class="Q">
+                {{History.question3}}
+               <br/> <br/> 
+                 <input type="radio" name="name3" value="Addis Ababa" [(ngModel)]="answer3" (change)="checkAnswer3()">{{History.q31}}<br>
+                <input type="radio" name="name3" >{{History.q32}}<br>
+                <input type="radio" name="name3">{{History.q33}}<br>
+                <input type="radio" name="name3">{{History.q34}}
+        
+              </div> 
+
+              <div class="Q">
+                  {{History.question4}}
+                 <br/> <br/> 
+                   <input type="radio" name="name4" >{{History.q41}}<br>
+                  <input type="radio" name="name4" value="Nairobi" [(ngModel)]="answer4" (change)="checkAnswer4()">{{History.q42}}<br>
+                  <input type="radio" name="name4" >{{History.q43}}<br>
+                  <input type="radio" name="name4" >{{History.q44}}
+          
+                </div> 
+
+
+
+    </div>
+    
+    <button class="Btn" (click)="results()">Check Score</button>
+  </div>
+</ion-content>

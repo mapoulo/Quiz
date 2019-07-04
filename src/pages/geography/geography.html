@@ -1,0 +1,80 @@
+<!--
+  Generated template for the GeographyPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title *ngIf="Geography">{{Geography.name}}</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding class="Geography">
+
+  <div class="container">
+
+    <div class="questions"  *ngIf="Geography">
+
+        <div class="Q">
+            {{Geography.question1}}
+           <br/> <br/> 
+             <input type="radio" name="name1" >{{Geography.q11}}<br>
+            <input type="radio" name="name1" >{{Geography.q12}}<br>
+            <input type="radio" name="name1" value="4" [(ngModel)]="answer1" (change)="checkAnswer1()">{{Geography.q13}}<br>
+            <input type="radio" name="name1">{{Geography.q14}}
+    
+          </div> 
+
+
+          <div class="Q">
+              {{Geography.question2}}
+
+             <br/> <br/> 
+             
+               <input type="radio" name="name2" >{{Geography.q21}}<br>
+              <input type="radio" name="name2" >{{Geography.q22}}<br>
+              <input type="radio" name="name2" value="Botswana" [(ngModel)]="answer2" (change)="checkAnswer2()">{{Geography.q23}}<br>
+              <input type="radio" name="name2" >{{Geography.q24}}
+      
+            </div> 
+
+
+             <div class="Q">
+                {{Geography.question3}}
+               <br/> <br/> 
+                 <input type="radio" name="name3">{{Geography.q31}}<br>
+                <input type="radio" name="name3" value="McKinley" [(ngModel)]="answer3" (change)="checkAnswer3()">{{Geography.q32}}<br>
+                <input type="radio" name="name3">{{Geography.q33}}<br>
+                
+        
+              </div> 
+
+
+              <div class="Q">
+                  {{Geography.question4}}
+                 <br/> <br/> 
+                   <input type="radio" name="name4" >{{Geography.q41}}<br>
+                  <input type="radio" name="name4" value="Atlantic and Indian" [(ngModel)]="answer4" (change)="checkAnswer4()">{{Geography.q42}}<br>
+                  <input type="radio" name="name4" >{{Geography.q43}}<br>
+                  <input type="radio" name="name4">{{Geography.q44}}
+          
+                </div> 
+
+
+                <div class="Q">
+                    {{Geography.question5}}
+                   <br/> <br/> 
+                     <input type="radio" name="name5" >{{Geography.q51}}<br>
+                    <input type="radio" name="name5" value="Cape Roca" [(ngModel)]="answer5" (change)="checkAnswer5()">{{Geography.q52}}<br>
+                    <input type="radio" name="name5" >{{Geography.q53}}<br>
+                    <input type="radio" name="name5">{{Geography.q54}}
+            
+                  </div>   
+       
+    </div>
+
+    <button class="Btn" (click)="results()">Check Score</button>
+  </div>
+
+</ion-content>

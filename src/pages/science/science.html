@@ -1,0 +1,83 @@
+<!--
+  Generated template for the SciencePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Science</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding class="Science">
+
+
+  <div class="container">
+
+    <div class="questions" *ngIf="Science">
+
+        <div class="Q">
+            {{Science.question1}}
+           <br/> <br/> 
+             <input type="radio" name="name1" value="Mercury" [(ngModel)]="answer1" (change)="checkAnswer1()">{{Science.q11}}<br>
+            <input type="radio" name="name1" >{{Science.q12}}<br>
+            <input type="radio" name="name1" >{{Science.q13}}<br>
+            <input type="radio" name="name1">{{Science.q14}}
+    
+          </div> 
+
+
+          <div class="Q">
+              {{Science.question2}}
+             <br/> <br/> 
+               <input type="radio" name="name2" value="Monkey" [(ngModel)]="answer2" (change)="checkAnswer2()">{{Science.q21}}<br>
+              <input type="radio" name="name2" >{{Science.q22}}<br>
+              <input type="radio" name="name2" >{{Science.q23}}<br>
+            </div> 
+
+
+
+            <div class="Q">
+                {{Science.question3}}
+               <br/> <br/> 
+                 <input type="radio" name="name3" value="720 degrees" [(ngModel)]="answer3" (change)="checkAnswer3()">{{Science.q31}}<br>
+                <input type="radio" name="name3">{{Science.q32}}<br>
+                <input type="radio" name="name3">{{Science.q33}}<br>
+                <input type="radio" name="name3">{{Science.q34}}
+        
+              </div> 
+
+
+
+              <div class="Q">
+                  {{Science.question4}}
+                 <br/> <br/> 
+                   <input type="radio" name="name4" value="The Kiwi" [(ngModel)]="answer4" (change)="checkAnswer4()">{{Science.q41}}<br>
+                  <input type="radio" name="name4" >{{Science.q42}}<br>
+                  <input type="radio" name="name4">{{Science.q43}}<br>
+                  <input type="radio" name="name4">{{Science.q44}}
+          
+                </div> 
+
+
+
+                <div class="Q">
+                    {{Science.question5}}
+                   <br/> <br/> 
+                     <input type="radio" name="name5" value="Mercury" [(ngModel)]="answer5" (change)="checkAnswer5()">{{Science.q51}}<br>
+                    <input type="radio" name="name5" >{{Science.q52}}<br>
+                    <input type="radio" name="name5">{{Science.q53}}<br>
+                    <input type="radio" name="name5">{{Science.q54}}
+            
+                  </div> 
+
+
+                  
+
+    </div>
+
+    <button class="Btn" (click)="results()">Check Score</button>
+
+  </div>
+</ion-content>

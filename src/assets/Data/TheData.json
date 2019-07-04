@@ -1,0 +1,182 @@
+{
+    
+        "Politics":{
+            "name" : "Politics",
+      
+            "question1" : "Black Consciousness Movement. Which leader of the Black Consciousness Movement in South Africa was killed in police custody in 1977?",
+            "q1":"Sipho Bengali",
+            "q2":  "Oliver Badebe",
+            "q3": "Walter Boipeteng",
+            "q4": "Steve Biko",
+      
+      
+            "question2" :   "Which political party, in 1922, used the slogan 'Workers of the world, unite and fight for a white South Africa!",
+            "q21":"Cape Peoples Party",
+            "q22":"Conservative Party",
+            "q23":"Communist Party",
+            "q24":"Correct Supremists",
+      
+            "question3" : "  Judiciary. Who is responsible for appointing judges in the high court?.",
+            "q31" : "The Judicial Services Commission",
+            "q32" : "The President of SA in consultation with the Judicial Services Commission",
+            "q33" : "The Supreme Court",
+            "q34" : "The Law Society of South Africa",
+      
+            "question4": "Government. What type of government does South Africa have?",
+            "q41": "Federal Republic",
+            "q42": "Dictatorship",
+            "q43": "Confederation",
+            "q44": "Republic",
+      
+            "question5" : "This political party has changed names many times over the years, and has an opposition party after all elections since 1949, when it was formed. In the 1994 elections it only won 1.7% of the vote. However, they did make a comeback, and once again became the official opposition after the 1999 and 2004 elections.",
+            "q51": "Democratic Peoples Congress",
+            "q52": "Democratic Party",
+            "q53": "Democratic Alliance",
+            "q54": "The Democrats"
+            
+        },
+      
+        "Religion":{
+      
+            "name" : "Religion",
+      
+            "question1" : "How is the term 'end of the world' translated in eschatological terms?",
+            "q11" : "End of times.",
+            "q12" : "End of a generation.",
+            "q13" : "End of the Century.",
+            "q14" : "End of an era",
+      
+            "question2" : "How do Christians and the Jewish people view the end of times?",
+            "q21" : "As the creation of a new world.",
+            "q22" : "As the consummation or perfection of God's creation of the world",
+            "q23" : "As the consummation of life on earth.",
+            "q24" : "As the destruction of all life on earth",
+
+
+            "question3": "  What is the great tribulation?",
+            "q31" : "It's a time when Men will commit the most sins.",
+            "q32" : "It is a period mentioned by Jesus in the Olivet discourse as a sign that would occur in the time of the end.",
+            "q33" : "It's the time when there will be great suffering among Men",
+            "q34" : "It's the time when Satan himself will come and collect human souls",
+            
+            "question4": " How many souls will be lost in the futurist view of the Christian eschatology?",
+            "q41": "75% of life on earth",
+            "q42": "90% of life on earth",
+            "q43": "95% of life on earth",
+            "q44": "98% of life on earth",
+
+            "question5" : "  How is the second coming of Christ called in the Catholic church?",
+            "q51" : "The second coming",
+            "q52" : "Eucharisty",
+            "q53" : "The Parousia",
+            "q54" : "The home coming of Christ"
+            
+        },
+
+        "History":{
+               
+            "name" : "History",
+
+            "question1": "What is Africa's newest country?", 
+            "q11": "Azania",
+            "q12": "South Sudan",
+            "q13": "Azawad",
+            "q14": "Central African Republic",
+
+             "question2" : "What alias did Nelson Mandela use while pretending to be a caretaker at Liliesleaf farm in Johannesburg?",
+             "q21" : "David Motsamayi",
+             "q22" : "The Black Pimpernel",
+             "q23" : "Mark Radebe",
+             "q24" : "Rolihlahla Ntoko",
+
+             "question3" : "In what city is the Chinese-built headquarters of the African Union?",
+             "q31" : "Addis Ababa",
+             "q32" : "Lagos",
+             "q33" : "Ouagadougou",
+             "q34" : "Johannesburg",
+
+             "question4" : "Where is Nollywood, the second biggest movie industry in the world in terms of number of films made?",
+             "q41" : "Namibia",
+             "q42" : "Nairobi",
+             "q43" : "Nelspruit",
+             "q44" : "Nigeria",
+
+            "question5": "Who or what is Liberia's capital Monrovia named after?",
+            "q51" : "Marilyn Monroe, film star",
+            "q52" : "James Monroe, the fifth president of the United States",
+            "q53" : "Monroe trees, indigenous to the region",
+            "q54" : "The pre-colonial Monroe kingdom"
+        
+        },
+
+        "Geography":{
+            "name" : "Geograghy",
+
+            "question1" :"South Africa is located at the southern part of the African Continent. How many countries does it border?",
+            "q11": "0",
+            "q12": "2",
+            "q13": "4",
+            "q14": "6",
+
+            "question2": "Which of the following countries does not border South Africa?",
+            "q21" : "Namibia",
+            "q22" : "Egypt",
+            "q23" : "Botswana",
+            "q24" : "Zimbabwe",
+            
+            "question3" : "This is the highest mountain in South Africa.",
+            "q31" : "Nejesuthi",
+            "q32" : "McKinley",
+            "q33" : " Mount Apo",
+
+            "question4": "South Africa's coastline is on two oceans. What are they",
+            "q41":"Atlantic and Pacific",
+            "q42":"Atlantic and Indian",
+            "q43":"Indian and Arctic",
+            "q44":"Indian and Pacific",
+
+            "question5" : "What is the southernmost point of the African continent?",
+            "q51" : "Cape Branco",
+            "q52" : "Cape Roca",
+            "q53" : "Cape Corrientes",
+            "q54" : "Cape Agulhas"  
+
+        },
+
+
+        "Science":{
+            "name" : "Science and Nature",
+
+            "question1" : "What is the only common metal that is liquid at room temperature?",
+            "q11": "Mercury",
+            "q12": "Hydrogen",
+            "q13": "Carbon",
+            "q14": "Bromine",
+           
+           
+            "question2" : "What type of animal is a mandrill?",
+            "q21": "Monkey",
+            "q22": "Cat",
+            "q23": "Horse",
+
+            "question3" : "What is the sum of the internal angles in a hexagon?",
+            "q31" : "720 degrees",
+            "q32" : "730 degrees",
+            "q33" : "740 degrees",
+            "q34" : "750 degrees",
+
+            "question4": "What is the national bird of New Zealand?",
+            "q41" : "The Kiwi",
+            "q42" : "Blue crane",
+            "q43" : "Grey crowned crane",
+            "q44" : "Clay-colored thrush",
+
+
+            "question5" : "What is the name of the planet closest to the Sun?",
+            "q51" : "Mercury",
+            "q52" : "Mars",
+            "q53" : "Jupiter",
+            "q54" : "Venus"
+        }
+      
+}

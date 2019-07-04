@@ -1,0 +1,80 @@
+<!--
+  Generated template for the ReligionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content padding class="religion">
+
+  <div class="container">
+
+    <div class="questions" *ngIf="religionData">
+         
+        <div class="Q1" *ngIf="religionData">
+            {{religionData.question1}}
+           <br/> <br/>
+            <input type="radio"  name="name1" >{{religionData.q11}}<br/>
+            <input type="radio" name="name1">{{religionData.q12}}<br/>
+            <input type="radio"  name="name1">{{religionData.q13}}<br/>
+            <input type="radio"  name="name1" value="End of an era" [(ngModel)]="answer1" (change)="checkAnswer1()">{{religionData.q14}}
+          </div>
+  
+  
+          <div class="Q2" *ngIf="religionData">
+            {{religionData.question2}}
+             <br/> <br/>
+            
+              <input type="radio"  name="name2">{{religionData.q21}}<br/>
+
+              <input type="radio"  name="name2" value="As the consummation or perfection of God's creation of the world"  [(ngModel)]="answer2" (change)="checkAnswer2()">{{religionData.q22}}<br/>
+
+              <input type="radio"  name="name2">{{religionData.q23}}<br/>
+
+              <input type="radio"  name="name2">{{religionData.q24}}
+            </div>
+          
+  
+            <div class="Q3">
+              {{religionData.question3}}
+               <br/> <br/>
+                <input type="radio"  name="name3">{{religionData.q31}}<br/>
+                <input type="radio"  name="name3" value="It is a period mentioned by Jesus in the Olivet discourse as a sign that would occur in the time of the end"  [(ngModel)]="answer3" (change)="checkAnswer3()">{{religionData.q32}}
+                <br/>
+                <input type="radio"  name="name3">{{religionData.q34}}<br/>
+                <input type="radio"  name="name3">{{religionData.q34}}
+              </div>
+  
+  
+              <div class="Q4">
+                  {{religionData.question3}}
+                 <br/> <br/>
+                  <input type="radio"  name="name4" value="75% of life on earth" [(ngModel)]="answer4" (change)="checkAnswer4()">{{religionData.q41}}<br/>
+                  <input type="radio"  name="name4">{{religionData.q42}}<br/>
+                  <input type="radio"  name="name4">{{religionData.q43}}<br/>
+                  <input type="radio"  name="name4" >{{religionData.q44}}
+                </div>
+  
+
+
+                <div class="Q5">
+                    {{religionData.question5}}
+                   <br/> <br/>
+  
+                    <input type="radio"  name="name5">{{religionData.q51}}<br/>
+  
+                    <input type="radio"  name="name5" >{{religionData.q52}}<br/>
+                    <input type="radio"  name="name5">{{religionData.q52}}<br/>
+                    <input type="radio"  name="name5"  value="The Parousia"  [(ngModel)]="answer5" (change)="checkAnswer5()">{{religionData.q53}}
+                  </div>
+
+                
+                  <button class="btn" (click)="results()">Check Score</button>    
+
+    </div>
+     
+   
+
+  </div>
+
+</ion-content>
